@@ -125,6 +125,8 @@ main {
     align-items: center;
     padding: 12px 24px;
 
+    color: var(--blue);
+
     width: 296px;
     height: 49px;
 
@@ -136,6 +138,7 @@ main {
     height: 76px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 30px;
     border-radius: 8px 8px 0px 0px;
 
@@ -146,6 +149,19 @@ main {
     line-height: 25px;
     color: #1E2338;
     ;
+}
+
+.title-card span:nth-child(2){
+    width: 94px;
+    height: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--blue);
+    color: #fff;
+    border-radius: 40px;
 }
 
 .price-basic{
@@ -161,6 +177,12 @@ main {
 
 .price-basic ul li:nth-child(2) {
     margin-bottom: 20px;
+}
+
+.price-basic button {
+    background-color: var(--blue);
+    color: #fff;
+    border-radius: 10px;
 }
 
 footer{
